@@ -1,0 +1,35 @@
+﻿const excel_register_json = [
+{
+	"reg_name":"hoge_reg0_MONI0",
+	"addr":"40004600",
+	"module_name":"apple",
+	"bit_reg":
+	[
+		{"name":"hoge_tete0","bit_msb":31,"bit_lsb":26,"description":"テストレジスタ０","normal_val":"-","commnet":"-"},
+		{"name":"hoge_tete1","bit_msb":15,"bit_lsb":12,"description":"テストレジスタ１","normal_val":"-","commnet":"-"},
+		{"name":"hoge_tete2","bit_msb":11,"bit_lsb":11,"description":"テストレジスタ２","normal_val":"-","commnet":"-"},
+		{"name":"hoge_tete3","bit_msb":10,"bit_lsb":8,"description":"テストレジスタ３","normal_val":"0","commnet":"-"},
+		{"name":"hoge_tete4","bit_msb":5,"bit_lsb":5,"description":"テストレジスタ４","normal_val":"-","commnet":"-"},
+		{"name":"hoge_tete5","bit_msb":4,"bit_lsb":4,"description":"テストレジスタ５","normal_val":"-","commnet":"-"},
+		{"name":"hoge_tete6","bit_msb":3,"bit_lsb":0,"description":"テストレジスタ６","normal_val":"-","commnet":"-"}
+	]
+},
+{
+	"reg_name":"hoge_reg1_MONI1",
+	"addr":"40004604",
+	"module_name":"apple",
+	"bit_reg":
+	[
+		{"name":"apple_tete0","bit_msb":31,"bit_lsb":24,"description":"デバッグレジス0_1","normal_val":"-","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":23,"bit_lsb":23,"description":"デバッグレジス0_2","normal_val":"-","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":22,"bit_lsb":20,"description":"デバッグレジス0_3","normal_val":"0","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":19,"bit_lsb":16,"description":"デバッグレジス0_4","normal_val":"-","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":14,"bit_lsb":12,"description":"デバッグレジス0_5","normal_val":"0","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":10,"bit_lsb":8,"description":"デバッグレジス0_6","normal_val":"0","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":6,"bit_lsb":4,"description":"デバッグレジス0_7","normal_val":"0","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":3,"bit_lsb":3,"description":"デバッグレジス0_8","normal_val":"-","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":2,"bit_lsb":2,"description":"デバッグレジス0_9","normal_val":"-","commnet":"-"},
+		{"name":"apple_tete0","bit_msb":1,"bit_lsb":1,"description":"デバッグレジス0_10","normal_val":"0","commnet":"-"}
+	]
+}
+];

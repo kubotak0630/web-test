@@ -1,0 +1,135 @@
+body {
+    font-family: 'Avenir','メイリオ', Meiryo,'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    background-color: #F8F8F8;
+}
+
+
+/*
+.gen_tbl {
+    border: solid 1px black;
+    color: #FF0000;
+}
+*/
+/** class gen_tbl: generateしたすべてのテーブルにつくclass名 **/
+
+#body_wrapper {
+    padding: 10px 20px;
+}
+
+.gen_tbl {
+    border-collapse: collapse;
+    margin-bottom:40px;
+}
+
+/*
+.gen_tbl th, .gen_tbl td {
+    border: solid 1px black;
+    
+}
+*/
+
+/** Start画面のCSS *****/
+#dumpfile, #mrcpfile {
+    margin: 0 0 40px 0;
+    display : none;
+}
+
+#divbtn_dmupfile, #divbtn_mrcpfile {
+    background-color: #00336D;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    /* margin: 0 20px 40px 0; */
+    margin-right: 20px;
+    height: 40px;
+    width: 350px;
+    line-height: 40px;
+    vertical-align: middle;
+    box-shadow: 3px 3px 4px gray;
+
+    display: inline-block;
+}
+
+#divbtn_dmupfile {
+    margin-bottom: 40px;
+}
+
+#divbtn_mrcpfile {
+    margin-bottom: 0px;
+}
+
+#start_descript0{
+    margin: 4px 0 40px 0;
+   
+}
+#dump_filename, #mrcp_filename {
+    width:200px;
+}
+
+#dump_filename {
+    position: relative;
+    top: -20px;
+}
+
+#divbtn_dmupfile.dropover {
+	background-color: #4D9BE8;
+    color:yellow;
+}
+
+#btn_analize {
+    height: 40px;
+    width: 200px;
+}
+
+
+/* tblの枠線を白*/
+.gen_tbl th{
+    padding: 6px 20px;
+    border: solid 1px  white;
+    border-bottom: solid 3px white;
+    
+    text-align: left;
+}
+
+/* tblの枠線を白*/
+.gen_tbl td{
+    padding: 3px 20px;	
+    border: solid 1px white;    
+    text-align: left;
+}
+
+.value_false {
+    background-color: #EE6557;
+}
+
+
+/** 全チャネルSummary Tbl **/
+#summary_tbl {
+    /* border-collapse: collapse; */
+    background-color: #CCDFCC;
+}
+
+
+/** CHのSummary Tbl **/
+#ch_summary_tbl {
+    /* border-collapse: collapse; */
+    background-color: #CCDFCC;
+}
+
+/**マウスが上にきた時の処理**/
+#ch_summary_tbl tr:hover{
+    background-color: #d4f0fd;
+}
+
+#ch_ndctag_tbl {
+    /* border-collapse: collapse; */
+    background-color: #dad8f2;
+}
+
+#ch_l2pinfo_tbl {
+    background-color: #d4f0fd;
+}
+
+.dump_tbl {
+    background-color: #DDD;
+}

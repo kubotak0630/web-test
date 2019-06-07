@@ -1,0 +1,37 @@
+table {
+    border: 2px #000000 solid;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px #2b2b2b solid;
+}
+
+#table_wrapper {
+    vertical-align: top;
+    display: inline-block;
+    border: solid 2px pink;
+    /* position: relative; */
+    /* top: -350px; */
+}
+
+#table2_wrapper {
+    vertical-align: top;
+    display: inline-block;
+    border: solid 2px pink;
+    /* position: relative; */
+    /* top: -350px; */
+}
+
+#list_wrapper {
+    vertical-align: top;
+    display: inline-block;
+    border: solid 2px pink;
+}
+
+#list2_wrapper {
+    vertical-align: top;
+    display: inline-block;
+    border: solid 2px pink;
+}
+
