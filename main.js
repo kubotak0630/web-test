@@ -578,15 +578,13 @@ function OnButtonClick_analize(evt) {
     .then(function(response) {
       json_data = response.data;
       console.log(json_data);
+      g_dumpAnalyzer = new DumpAnalyzer(18, json_data, g_addr_table);
+      viewSummary();
+
     })
     .catch(function(error) {
       console.log(error);
     });
-
-  g_dumpAnalyzer = new DumpAnalyzer(18, json_data, g_addr_table);
-
-  viewSummary();
-
 }
 
 
