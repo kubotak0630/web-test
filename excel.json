@@ -1,4 +1,4 @@
-﻿const excel_register_json = [
+﻿[
 {
 	"reg_name":"hoge_reg0_MONI0",
 	"addr":"40004600",
@@ -32,4 +32,4 @@
 		{"name":"apple_tete0","bit_msb":1,"bit_lsb":1,"description":"デバッグレジス0_10","normal_val":"0","commnet":"-"}
 	]
 }
-];
+]

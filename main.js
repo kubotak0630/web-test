@@ -571,7 +571,19 @@ function viewSummary() {
 
 function OnButtonClick_analize(evt) {
 
-  g_dumpAnalyzer = new DumpAnalyzer(18, excel_register_json, g_addr_table);
+  let json_data = [];
+
+  //jsonデータの読み込み
+  axios.get('./excel.json')
+    .then(function(response) {
+      json_data = response.data;
+      console.lig(json_data);
+    })
+    .catch(function(error) {
+      console.lig(error);
+    });
+
+  g_dumpAnalyzer = new DumpAnalyzer(18, json_data, g_addr_table);
 
   viewSummary();
 
