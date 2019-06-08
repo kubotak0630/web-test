@@ -577,10 +577,10 @@ function OnButtonClick_analize(evt) {
   axios.get('./excel.json')
     .then(function(response) {
       json_data = response.data;
-      console.lig(json_data);
+      console.log(json_data);
     })
     .catch(function(error) {
-      console.lig(error);
+      console.log(error);
     });
 
   g_dumpAnalyzer = new DumpAnalyzer(18, json_data, g_addr_table);
